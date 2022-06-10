@@ -9,11 +9,11 @@ const Contact = () => {
         <h2>Contact Me ...</h2>
         <div className="contact__list">
           <div className="contact__item">
-            <i className="fas fa-envelope"></i> Email
+            <i className="fas fa-envelope"></i> E-mail
             <div className="text-secondary">baaserosman@gmail.com</div>
           </div>
           <div className="contact__item">
-            <i className="fas fa-mobile-alt"></i> Phone
+            <i className="fas fa-mobile-alt"></i> Telephone
             <div className="text-secondary">+49 179 4594697</div>
           </div>
           <div className="contact__item">
