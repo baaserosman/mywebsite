@@ -1,0 +1,17 @@
+//*****************************************************
+//*   PROJECT PAGE
+//*****************************************************
+
+.project-bgImg-container {
+  @include bgImage(60vh, $main-bgImage-path);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .projects__bio-image {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: yellow;
+  }
+}
