@@ -8,7 +8,7 @@ const FooterHorizontal = () => {
           <i className="twitter fab fa-twitter fa-2x"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/mustafa-dasdan-a83152224/"
+          href="https://www.linkedin.com/in/osman-b-6b606021a/"
           target="_blank"
           rel="noreferrer"
         >
@@ -17,7 +17,11 @@ const FooterHorizontal = () => {
         <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
           <i className="instagram fab fa-instagram fa-2x"></i>
         </a>
-        <a href="https://github.com/dsdnmstf" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/baaserosman"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="github fab fa-github fa-2x"></i>
         </a>
       </div>

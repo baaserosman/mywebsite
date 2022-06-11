@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Licorice&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto:wght@300&family=Sedgwick+Ave&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("./img/model-3.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.home__name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Sedgwick Ave";
+}
+.home__name--last {
+  color: red;
+  font-weight: 700;
+}
+
+.about-bgImg-container {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("./img/model-3.png");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-bgImg-container .about__bio-image {
+  overflow: hidden;
+  text-align: center;
+}
+.about-bgImg-container .about__bio-image h2 {
+  font-size: 3rem;
+  color: rgba(255, 255, 0, 0.918);
+}
+.about-bgImg-container .about__bio-image p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 2rem;
+}
+
+.about__container {
+  width: 70vw;
+  margin: 2rem auto;
+}
+.about .about__job {
+  margin: 1rem;
+  background: #414141;
+  padding: 1rem;
+  border-bottom: 5px solid rgba(255, 255, 0, 0.918);
+}
+.about .about__job h2,
+.about .about__job h3 {
+  margin: 0.5rem 0;
+}
+.about .about__job h6 {
+  margin: 0.3rem 0;
+}
+
+.project-bgImg-container {
+  height: 60vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("./img/model-3.png");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-bgImg-container .projects__bio-image {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+.contact-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("./img/model-3.png");
+  background-position: center center;
+  background-size: cover;
+}
+.contact-bgImg-container nav {
+  height: 40vh;
+}
+
+.contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem 2rem;
+  font-size: 1.5rem;
+}
+.contact .text-secondary {
+  color: rgba(255, 255, 0, 0.918);
+}
+
+.twitter {
+  color: #24b5ee;
+}
+
+.facebook {
+  color: blue;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
+}
+
+.nav {
+  padding: 1rem;
+  height: 10vh;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding-right: 1rem;
+}
+.nav__link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.918);
+  transition: all 1s;
+}
+.nav__link:hover {
+  color: #2380fa;
+}
+.nav__link--active {
+  color: rgba(255, 255, 0, 0.918);
+}
+
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
+  padding: 0.4rem;
+  transition: all 1s;
+}
+.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+  color: rgba(255, 255, 0, 0.918);
+}
+
+footer.horizontal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+footer.vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+footer.vertical .social-icons {
+  gap: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 1rem;
+}
+footer.vertical .copyright {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 0px) {
+  .nav {
+    padding: 0.5rem;
+  }
+  .nav__list {
+    text-align: center;
+  }
+  .nav__item {
+    padding-right: 0.7rem;
+  }
+  .nav .nav__link {
+    font-size: 0.9rem;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact__list {
+    gap: 2rem 1.2rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav {
+    padding: 0.7rem;
+  }
+  .nav__list {
+    text-align: right;
+  }
+  .nav__item {
+    padding-right: 1rem;
+  }
+  .nav .nav__link {
+    font-size: 1rem;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact__list {
+    gap: 2.5rem 2rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav__item {
+    padding-right: 1.3rem;
+  }
+  .nav .nav__link {
+    font-size: 1.3rem;
+  }
+
+  .projects__item {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav__item {
+    padding-right: 1.5rem;
+  }
+  .nav .nav__link {
+    font-size: 1.5rem;
+  }
+
+  .projects__item {
+    width: 50%;
+  }
+
+  .contact__list {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .projects__item {
+    width: 33%;
+  }
+}
+body {
+  font-family: "Segoe UI", "Nunito", Tahoma, Genava, Verdana, sans-serif;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.918);
+  background-color: #272727;
+  height: 100vh;
+}
+
+Link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.918);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+.home h1 {
+  margin-top: 1rem;
+  font-family: "Sedgwick Ave";
+}
+
+.Fullstack {
+  font-weight: 600;
+  font-size: 2.5rem;
+  font-family: "Sedgwick Ave";
+}
+
+.twitter {
+  color: #24b5ee;
+}
+
+.linkedin {
+  color: blue;
+}
+
+.instagram {
+  padding: 0;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
+}
+
+/*# sourceMappingURL=App.css.map */

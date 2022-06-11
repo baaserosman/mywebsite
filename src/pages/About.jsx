@@ -9,9 +9,6 @@ const About = () => {
         <div className="about__bio-image">
           <h2>BIO</h2>
           <p>
-            After 6 years of experience in military profession and leadership,
-            business graduation and training in this field, developing projects
-            in the field of backend and frontend for web and mobile platforms.
             As a dynamic developer, I especially like working with React and
             Django. My attention to detail and harmony with teamwork play an
             active role in the projects. In addition, my fascination with the

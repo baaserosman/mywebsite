@@ -18,10 +18,12 @@
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
+    text-decoration: none;
+    color:$text-color;
 
     @include transition(1s);
     &:hover {
-      color: blue;
+      color:rgb(35, 128, 250);
     }
 
     &--active {

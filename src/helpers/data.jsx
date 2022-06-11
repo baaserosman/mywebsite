@@ -5,11 +5,18 @@ export const data = [
     image: "/static/img/blogApp(django).png",
     url: "https://still-sands-45656.herokuapp.com/",
   },
+
   {
     number: 2,
     name: "React-Blog-App",
     image: "/static/img/blogApp(react).png",
     url: "https://baschers-blog-app.netlify.app/",
+  },
+  {
+    number: 16,
+    name: "Web Grafik Design App",
+    image: "/static/img/webgrafikdesignApp.png",
+    url: "https://aqueous-cliffs-49319.herokuapp.com/",
   },
   {
     number: 3,
@@ -87,12 +94,6 @@ export const data = [
     number: 15,
     name: "Weather App",
     image: "/static/img/weatherApp.png",
-    url: "https://aqueous-cliffs-49319.herokuapp.com/",
-  },
-  {
-    number: 16,
-    name: "Web Grafik Design App",
-    image: "/static/img/webgrafikdesignApp.png",
     url: "https://aqueous-cliffs-49319.herokuapp.com/",
   },
 ];
