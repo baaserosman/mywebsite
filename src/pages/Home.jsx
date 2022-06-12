@@ -13,9 +13,10 @@ const Home = () => {
         <h2 class="Fullstack">Full Stack Web Developer</h2>
       </main>
       {/* ABOUT */}
-      <div>
+      <div id="about">
         <main className="about">
           <div className="about__container">
+            <h2 className="title">ABOUT ME</h2>
             <div className="about__job">
               <h2 className="text-secondary">2021 - 2022</h2>
               <h3>
@@ -55,7 +56,7 @@ const Home = () => {
         </main>
       </div>
       {/* PROJECTS */}
-      <div className="card-container">
+      <div id="project" className="card-container">
         {data.map((Project, index) => {
           return (
             <div className="cards" key={index}>
@@ -75,7 +76,7 @@ const Home = () => {
         })}
       </div>
       {/* CONTACT */}
-      <main className="contact">
+      <div id="contact" className="contact">
         <h2>Contact Me ...</h2>
         <div className="contact__list">
           <div className="contact__item">
@@ -91,7 +92,7 @@ const Home = () => {
             <div className="text-secondary">01169 Dresden</div>
           </div>
         </div>
-      </main>
+      </div>
       <FooterHorizontal />
     </div>
   );

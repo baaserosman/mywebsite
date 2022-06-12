@@ -27,13 +27,24 @@
   &__container {
     width: 70vw;
     margin: 2rem auto;
+    .title {
+      font-weight: bolder;
+      color: yellow;
+      text-align: center;
+    }
   }
   .about__job {
     margin: 1rem;
     background: lighten($primary-color, 10%);
     padding: 1rem;
     border-bottom: 5px solid $secondary-color;
-
+    a {  
+      text-decoration: none;  
+      color:$text-color;
+      &:hover {
+         color:rgb(35, 128, 250);
+      }
+    }
     h2,
     h3 {
       margin: 0.5rem 0;
@@ -41,5 +52,9 @@
     h6 {
       margin: 0.3rem 0;
     }
+    p {
+      
+    }
+    
   }
 }

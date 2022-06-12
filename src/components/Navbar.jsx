@@ -5,27 +5,27 @@ const Navbar = () => {
     <nav className="nav">
       <ul className="nav__list">
         <li className="nav__item">
-          <Link to={"/"} className="nav__link">
+          <a href="#" className="nav__link">
             Home
-          </Link>
+          </a>
         </li>
 
         <li className="nav__item">
-          <Link to={"/about"} className="nav__link">
+          <a aria-current="page" href="#about" className="nav__link">
             About Me
-          </Link>
+          </a>
         </li>
 
         <li className="nav__item">
-          <Link to={"/projects"} className="nav__link">
+          <a aria-current="page" href="#project" className="nav__link">
             My Projects
-          </Link>
+          </a>
         </li>
 
         <li className="nav__item">
-          <Link to={"/contact"} className="nav__link">
+          <a aria-current="page" href="#contact" className="nav__link">
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>

@@ -15,11 +15,17 @@
 }
 
 .home {
-  height: 80vh;
+  height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+.home .home-bgImg-container {
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
 }
 .home__name {
   font-size: 5rem;
@@ -60,11 +66,23 @@
   width: 70vw;
   margin: 2rem auto;
 }
+.about__container .title {
+  font-weight: bolder;
+  color: yellow;
+  text-align: center;
+}
 .about .about__job {
   margin: 1rem;
   background: #414141;
   padding: 1rem;
   border-bottom: 5px solid rgba(255, 255, 0, 0.918);
+}
+.about .about__job a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.918);
+}
+.about .about__job a:hover {
+  color: #2380fa;
 }
 .about .about__job h2,
 .about .about__job h3 {
@@ -73,7 +91,6 @@
 .about .about__job h6 {
   margin: 0.3rem 0;
 }
-
 .project-bgImg-container {
   height: 60vh;
   width: 100%;
@@ -146,7 +163,11 @@
 
 .nav {
   padding: 1rem;
-  height: 10vh;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.144);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 .nav__list {
   text-align: right;
@@ -173,9 +194,8 @@
 .link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
-}
-.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
-  color: rgba(255, 255, 0, 0.918);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.918);
 }
 
 footer.horizontal {

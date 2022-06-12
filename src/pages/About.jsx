@@ -24,7 +24,11 @@ const About = () => {
           <div className="about__job">
             <h2 className="text-secondary">2021 - 2022</h2>
             <h3>
-              <a href="https://clarusway.de/" target="_blank">
+              <a
+                href="https://clarusway.de/"
+                target="_blank"
+                className="clarusway"
+              >
                 CLARUSWAY
               </a>
             </h3>

@@ -27,7 +27,7 @@ const Projects = () => {
               </div>
               <div className="btn-div">
                 <a href={Project.url} target="_blank" rel="noreferrer">
-                  <button className="btn">Go To Poject</button>
+                  <button className="btn">Go To Project</button>
                 </a>
               </div>
             </div>

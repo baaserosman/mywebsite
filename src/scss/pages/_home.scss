@@ -5,11 +5,24 @@
   @include bgImage(100vh, $main-bgImage-path);
 }
 .home {
-  height: 80vh;
+  height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  .home-bgImg-container{
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center center;
+  // height: 100vh;
+  // position: relative;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // text-align: center;
+  }
+  
 
   &__name {
     font-size: 5rem;
