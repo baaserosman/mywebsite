@@ -5,7 +5,6 @@ import { data } from "../helpers/data";
 const Home = () => {
   return (
     <div className="home-bgImg-container">
-      <Navbar />
       <main class="home">
         <h1 class="home__name">
           Osman <span class="home__name--last">BASCHER</span>
@@ -17,6 +16,15 @@ const Home = () => {
         <main className="about">
           <div className="about__container">
             <h2 className="title">ABOUT ME</h2>
+            <p className="text-content">
+              As a dynamic developer, I especially like working with React and
+              Django. My attention to detail and harmony with teamwork play an
+              active role in the projects. In addition, my fascination with the
+              world of technology allows me to improve myself in the field of
+              programming, to learn something new every day and to share what I
+              have learned. I believe that the most effective way to learn and
+              improve is to share.
+            </p>
             <div className="about__job">
               <h2 className="text-secondary">2021 - 2022</h2>
               <h3>
@@ -56,25 +64,29 @@ const Home = () => {
         </main>
       </div>
       {/* PROJECTS */}
-      <div id="project" className="card-container">
-        {data.map((Project, index) => {
-          return (
-            <div className="cards" key={index}>
-              <h4 className="title">{Project.name}</h4>
-              <hr />
-              <br />
-              <div className="img-div">
-                <img src={Project.image} alt="logo" />
+      <div id="project" className="project-container">
+        <h2 className="title">MY PROJECTS</h2>
+        <div className="card-container">
+          {data.map((Project, index) => {
+            return (
+              <div className="cards" key={index}>
+                <h4 className="title">{Project.name}</h4>
+                <hr />
+                <br />
+                <div className="img-div">
+                  <img src={Project.image} alt="logo" />
+                </div>
+                <div className="btn-div">
+                  <a href={Project.url} target="_blank" rel="noreferrer">
+                    <button className="btn">Go To Poject</button>
+                  </a>
+                </div>
               </div>
-              <div className="btn-div">
-                <a href={Project.url} target="_blank" rel="noreferrer">
-                  <button className="btn">Go To Poject</button>
-                </a>
-              </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
+
       {/* CONTACT */}
       <div id="contact" className="contact">
         <h2>Contact Me ...</h2>
@@ -92,6 +104,9 @@ const Home = () => {
             <div className="text-secondary">01169 Dresden</div>
           </div>
         </div>
+        <a href="#" class="up-btn">
+          <i class="fas fa-arrow-up fa-2x"></i>
+        </a>
       </div>
       <FooterHorizontal />
     </div>

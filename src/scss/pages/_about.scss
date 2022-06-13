@@ -3,7 +3,7 @@
 //*****************************************************
 
 .about-bgImg-container {
-  @include bgImage(60vh, $main-bgImage-path);
+  // @include bgImage(60vh, $main-bgImage-path);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -15,7 +15,7 @@
       color: $secondary-color;
     }
     p {
-      font-size: 1rem;
+      font-size: 2rem;
       font-weight: 500;
       margin: 2rem;
     }
@@ -26,17 +26,25 @@
 .about {
   &__container {
     width: 70vw;
-    margin: 2rem auto;
+    margin: 3rem auto;
+    padding-top: 4rem;
     .title {
       font-weight: bolder;
-      color: yellow;
+      color: $secondary-color;
       text-align: center;
+    }
+    .text-content {
+      padding:2rem;
+      font-size:1.2rem;
+      font-weight: bold;
+      line-height: normal; 
     }
   }
   .about__job {
     margin: 1rem;
     background: lighten($primary-color, 10%);
     padding: 1rem;
+    line-height: normal;
     border-bottom: 5px solid $secondary-color;
     a {  
       text-decoration: none;  

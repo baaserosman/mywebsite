@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="nav">
+    <div>
+      <nav className="nav">
       <ul className="nav__list">
         <li className="nav__item">
           <a href="#" className="nav__link">
@@ -29,6 +30,8 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
+    </div>
+    
   );
 };
 

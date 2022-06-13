@@ -2,16 +2,26 @@
 //*   PROJECT PAGE
 //*****************************************************
 
-.project-bgImg-container {
-  @include bgImage(60vh, $main-bgImage-path);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+// .project-bgImg-container {
+//   // @include bgImage(60vh, $main-bgImage-path);
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   margin-top:5rem;
 
-  .projects__bio-image {
-    margin-bottom: 0.5rem;
-    text-align: center;
-    font-size: 1.5rem;
-    color: yellow;
-  }
+//   .projects__bio-image {
+//     margin-bottom: 0.5rem;
+//     text-align: center;
+//     font-size: 1.5rem;
+//     color: yellow; 
+//   }
+// }
+
+.project-container{
+  padding-top:4rem;
 }
+.title {
+      font-weight: bolder;
+      color: $secondary-color;
+      text-align: center;
+    }

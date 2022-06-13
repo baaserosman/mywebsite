@@ -1,15 +1,15 @@
 //*****************************************************
 //*   CONTACT PAGE
 //*****************************************************
-.contact-bgImg-container {
-  @include bgImage(100vh, $main-bgImage-path);
-  nav {
-    height: 40vh;
-  }
-}
+// .contact-bgImg-container {
+//   @include bgImage(100vh, $main-bgImage-path);
+//   // nav {
+//   //   height: 100vh;
+//   // }
+// }
 
 .contact {
-  height: 40vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,17 +20,18 @@
     margin-bottom: 2rem;
   }
 
-  &__list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5rem 2rem;
-    font-size: 1.5rem;
-  }
+  // &__list {
+  //   display: flex;
+  //   flex-direction: column;
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+  //   align-items: center;
+  //   gap: 2.5rem 2rem;
+  //   font-size: 1.5rem;
+  // }
   .text-secondary {
     color: $secondary-color;
+    line-height: 4rem;
   }
 }
 
