@@ -28,7 +28,11 @@ const Home = () => {
             <div className="about__job">
               <h2 className="text-secondary">2021 - 2022</h2>
               <h3>
-                <a href="https://clarusway.de/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://clarusway.de/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   CLARUSWAY
                 </a>
               </h3>
@@ -104,7 +108,7 @@ const Home = () => {
             <div className="text-secondary">01169 Dresden</div>
           </div>
         </div>
-        <a href="home" class="up-btn">
+        <a href="/#" class="up-btn" rel="noreferrer">
           <i class="fas fa-arrow-up fa-2x"></i>
         </a>
       </div>
