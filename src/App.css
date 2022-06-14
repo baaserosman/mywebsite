@@ -201,8 +201,8 @@
 }
 .contact .contact__text {
   color: rgba(255, 255, 255, 0.918);
-  line-height: 4rem;
-  margin-bottom: 1rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
 }
 .contact a {
   color: rgba(255, 255, 255, 0.918);
