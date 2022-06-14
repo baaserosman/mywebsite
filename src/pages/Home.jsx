@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import FooterHorizontal from "../components/FooterHorizontal";
 import { data } from "../helpers/data";
 const Home = () => {
@@ -28,7 +28,7 @@ const Home = () => {
             <div className="about__job">
               <h2 className="text-secondary">2021 - 2022</h2>
               <h3>
-                <a href="https://clarusway.de/" target="_blank">
+                <a href="https://clarusway.de/" target="_blank" rel="noreferrer">
                   CLARUSWAY
                 </a>
               </h3>
@@ -104,7 +104,7 @@ const Home = () => {
             <div className="text-secondary">01169 Dresden</div>
           </div>
         </div>
-        <a href="#" class="up-btn">
+        <a href="home" class="up-btn">
           <i class="fas fa-arrow-up fa-2x"></i>
         </a>
       </div>
