@@ -16,7 +16,7 @@ export const data = [
     number: 16,
     name: "Web Grafik Design App",
     image: "/static/img/webgrafikdesignApp.png",
-    url: "https://aqueous-cliffs-49319.herokuapp.com/",
+    url: "https://bascher.netlify.app/",
   },
   {
     number: 3,

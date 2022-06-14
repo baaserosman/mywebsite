@@ -93,26 +93,73 @@ const Home = () => {
 
       {/* CONTACT */}
       <div id="contact" className="contact">
-        <h2>Contact Me ...</h2>
+        <h2 className="title">Contact Me</h2>
+        <br />
         <div className="contact__list">
           <div className="contact__item">
-            <i className="fas fa-envelope"></i> E-mail
-            <div className="text-secondary">baaserosman@gmail.com</div>
+            <a
+              className="contact__link"
+              href="mailto:baaserosman@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fas fa-envelope fa-2x"></i>
+            </a>
+            <div className="contact__text">baaserosman@gmail.com</div>
           </div>
           <div className="contact__item">
-            <i className="fas fa-mobile-alt"></i> Telephone
-            <div className="text-secondary">+49 179 4594697</div>
+            <a
+              href="https://www.linkedin.com/in/osman-b-6b606021a/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="linkedin fab fa-linkedin fa-2x"></i>
+            </a>
+            <div className="contact__text">
+              www.linkedin.com/in/osman-b-6b606021a/
+            </div>
           </div>
           <div className="contact__item">
-            <i className="fas fa-map-marker-alt"></i> Address
-            <div className="text-secondary">01169 Dresden</div>
+            <a
+              href="https://github.com/baaserosman"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="github fab fa-github fa-2x"></i>
+            </a>
+            <div className="contact__text">https://github.com/baaserosman</div>
           </div>
         </div>
+
+        {/* <div className="contact-icons">
+          <a
+            href="https://www.linkedin.com/in/osman-b-6b606021a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="linkedin fab fa-linkedin fa-3x"></i>
+          </a>
+          <a
+            href="mailto:baaserosman@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-solid fa-envelope fa-3x"></i>
+          </a>
+          <a
+            href="https://github.com/baaserosman"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="github fab fa-github fa-3x"></i>
+          </a>
+        </div> */}
+
         <a href="/#" class="up-btn" rel="noreferrer">
           <i class="fas fa-arrow-up fa-2x"></i>
         </a>
       </div>
-      <FooterHorizontal />
+      {/* <FooterHorizontal /> */}
     </div>
   );
 };

@@ -2,10 +2,10 @@
 //*   HOME PAGE
 //*****************************************************
 .home-bgImg-container {
-  @include bgImage(80vh, $main-bgImage-path);
+  @include bgImage(100vh, $main-bgImage-path);
 }
 .home {
-  height: 80vh;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,15 @@
       font-weight: 700;
     }
   }
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  @extend .link-style;
 }
 
 .up-btn {

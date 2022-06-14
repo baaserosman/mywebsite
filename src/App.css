@@ -61,7 +61,7 @@
 }
 
 .home-bgImg-container {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("./img/model-3.png");
   background-position: center center;
@@ -69,7 +69,7 @@
 }
 
 .home {
-  height: 80vh;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -90,6 +90,14 @@
 .home__name--last {
   color: red;
   font-weight: 700;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .up-btn {
@@ -179,15 +187,31 @@
 }
 
 .contact {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-.contact h2 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+.contact.title {
+  font-weight: bolder;
+  color: rgba(255, 255, 0, 0.918);
+  text-align: center;
+  font-size: 1.5em;
+}
+.contact .contact__text {
+  color: rgba(255, 255, 255, 0.918);
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+.contact a {
+  color: rgba(255, 255, 255, 0.918);
+  text-decoration: none;
+  margin: auto 1.5rem;
+  transition: 1s;
+}
+.contact a:hover {
+  color: #2380fa;
 }
 .contact .text-secondary {
   color: rgba(255, 255, 0, 0.918);
@@ -245,7 +269,7 @@
   color: rgba(255, 255, 0, 0.918);
 }
 
-.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a, .contact-icons a {
   padding: 0.4rem;
   transition: all 1s;
   text-decoration: none;
@@ -282,7 +306,6 @@ footer.vertical .copyright {
 }
 
 footer.middle {
-  height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -402,10 +425,6 @@ h3 {
 
 .twitter {
   color: #24b5ee;
-}
-
-.linkedin {
-  color: blue;
 }
 
 .instagram {
