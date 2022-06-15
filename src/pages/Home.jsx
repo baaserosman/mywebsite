@@ -1,6 +1,4 @@
 import React from "react";
-// import Navbar from "../components/Navbar";
-// import FooterHorizontal from "../components/FooterHorizontal";
 import { data } from "../helpers/data";
 const Home = () => {
   return (
@@ -131,35 +129,11 @@ const Home = () => {
           </div>
         </div>
 
-        {/* <div className="contact-icons">
-          <a
-            href="https://www.linkedin.com/in/osman-b-6b606021a/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="linkedin fab fa-linkedin fa-3x"></i>
-          </a>
-          <a
-            href="mailto:baaserosman@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="fa-solid fa-envelope fa-3x"></i>
-          </a>
-          <a
-            href="https://github.com/baaserosman"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="github fab fa-github fa-3x"></i>
-          </a>
-        </div> */}
-
         <a href="/#" class="up-btn" rel="noreferrer">
           <i class="fas fa-arrow-up fa-2x"></i>
         </a>
       </div>
-      {/* <FooterHorizontal /> */}
+      
     </div>
   );
 };
