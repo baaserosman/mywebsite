@@ -5,7 +5,7 @@ const FooterMiddle = () => {
     <footer className="middle">
       <div className="social-icons">
         <a
-          href="https://www.linkedin.com/in/osman-b-6b606021a/"
+          href="https://www.linkedin.com/in/osman-bascher/"
           target="_blank"
           rel="noreferrer"
         >

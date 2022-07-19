@@ -107,14 +107,14 @@ const Home = () => {
           </div>
           <div className="contact__item">
             <a
-              href="https://www.linkedin.com/in/osman-b-6b606021a/"
+              href="https://www.linkedin.com/in/osman-bascher/"
               target="_blank"
               rel="noreferrer"
             >
               <i className="linkedin fab fa-linkedin fa-2x"></i>
             </a>
             <div className="contact__text">
-              www.linkedin.com/in/osman-b-6b606021a/
+              www.linkedin.com/in/osman-bascher/
             </div>
           </div>
           <div className="contact__item">
@@ -133,7 +133,6 @@ const Home = () => {
           <i class="fas fa-arrow-up fa-2x"></i>
         </a>
       </div>
-      
     </div>
   );
 };
