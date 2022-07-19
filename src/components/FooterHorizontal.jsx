@@ -8,7 +8,7 @@ const FooterHorizontal = () => {
           <i className="twitter fab fa-twitter fa-2x"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/osman-b-6b606021a/"
+          href="https://www.linkedin.com/in/osman-bascher/"
           target="_blank"
           rel="noreferrer"
         >
